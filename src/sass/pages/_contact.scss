@@ -1,0 +1,55 @@
+#pages {
+  > * {
+    display: none;
+  }
+  
+  > .active {
+    display: block;
+  }
+}
+
+.contact-title {
+  font-family: $font-header;
+  color: $main-color;
+  font-weight: 700;
+  letter-spacing: 10px;
+  font-size: 3.5rem;
+  position: relative;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.contact-title:after {
+  position: absolute;
+  content: '';
+  bottom: -1rem;
+  left: 50%;
+  width: 35rem;
+  height: 2px;
+  transform: translate(-50%,-50%);
+  background: $main-color;
+}
+
+.form-control {
+  width: 20rem;
+  border: 1px solid $color-dark;
+  border-radius: 0;
+  
+}
+
+.form-floating {
+  margin-top: 5rem;
+}
+
+.submit-button {
+  text-align: center;
+
+  .btn{
+    border-radius: 0;
+  }
+}
+
+.footer-txt{
+  text-align: center;
+  font-size: 10px;
+}

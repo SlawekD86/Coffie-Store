@@ -1,0 +1,102 @@
+#pages {
+  > * {
+    display: none;
+  }
+  
+  > .active {
+    display: block;
+  }
+}
+
+.about-us-txt{
+  text-align: center;
+  color: $main-color;
+  padding: 3rem 0 5rem 0;
+  position: relative;
+}
+
+.about-us-txt::after {
+  position: absolute;
+  content: '';
+  bottom: 4rem;
+  left: 50%;
+  width: 350px;
+  height: 3px;
+  transform: translate(-50%,-50%);
+  background: $main-color;
+}
+
+.navbar-image-home {
+  background-image: url('../images/about-us.jpg');
+  background-size: cover;
+}
+
+.carousel-item img {
+  padding-left: 10rem;
+}
+
+.carousel-txt{
+  color: $color-light;
+  text-align: left;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+.caption{
+  max-width: 500px;
+}
+
+.names{
+  padding-bottom: 1rem;
+}
+
+#carouselAboutUs{
+  padding-bottom: 6rem;
+}
+
+.home-products{
+  padding-bottom: 2rem;
+}
+
+.home-products .prod:nth-of-type(2) .product-image {
+  order: 1;
+}
+
+.home-products .prod:nth-of-type(2) .product-text {
+  order: 2;
+}
+
+.footer-txt {
+  font-family: $font-header;
+  padding: 15px 0 15px 0;
+}
+
+@media (max-width: 576px){
+  .home-products .prod:nth-of-type(2) .product-image {
+    order: 2;
+  }
+  
+  .home-products .prod:nth-of-type(2) .product-text {
+    order: 1;
+  }
+
+  .carousel-item img {
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 768px){
+  .carousel-item img {
+    padding: 0;
+  }
+
+  .home-products .prod:nth-of-type(2) .product-image {
+    order: 2;
+  }
+  
+  .home-products .prod:nth-of-type(2) .product-text {
+    order: 1;
+  }
+
+}

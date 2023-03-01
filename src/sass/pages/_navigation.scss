@@ -1,0 +1,108 @@
+.navbar-image {
+  background-image: url('../images/background.jpg');
+  height: 90vh;
+  background-size: cover;
+  flex-direction: column;
+  position: relative;
+}
+
+.main-title {
+  font-family: $font-header;
+  color: $main-color;
+  font-weight: 700;
+  letter-spacing: 5px;
+  font-size: 5.5rem;
+  position: relative;
+}
+
+.main-title::after {
+  position: absolute;
+  content: '';
+  bottom: -2.5rem;
+  left: 50%;
+  width: 250px;
+  height: 5px;
+  transform: translate(-50%,-50%);
+  background: $main-color;
+}
+
+
+.navbar-brand {
+  font-family: $font-header;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  font-weight: 600;
+
+  .brand-sub-text {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 5px;
+  }
+}
+
+.navbar-nav {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.content {
+  bottom: 3rem;
+}
+
+.discover-button {
+  bottom: 30px;
+  position: absolute;
+  // left: 50%;
+  // transform: translateX(-50%);
+
+  .discover-text {
+    color: $color-light;
+    font-family: $font-header;
+    letter-spacing: 5px;
+  }
+
+  .icon-link {
+    color: $color-light;
+    font-size: 2rem;
+    margin: 40%;
+    font-size: 0;
+
+    i {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 576px){
+  .main-title {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 768px){
+  .main-title {
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .content{
+    bottom: 0;
+  }
+}
+
+@media (max-width: 1048px){
+  .main-title{
+    text-align: center;
+  }
+}
+
+@media (max-width: 1197px){
+  .main-title{
+    text-align: center;
+  }
+}
