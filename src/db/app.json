@@ -19,8 +19,8 @@
       "roasting": "8/10",
       "intensity": "9/10",
       "image": "./images/coffee-2.png",
-      "oldPrice": 36,
-      "newPrice": 25
+      "oldPrice": 30,
+      "newPrice": 22
     },
     {
       "id": "3",
@@ -29,8 +29,8 @@
       "roasting": "3/10",
       "intensity": "7/10",
       "image": "./images/coffee-3.png",
-      "oldPrice": 36,
-      "newPrice": 25
+      "oldPrice": 34,
+      "newPrice": 24
     }
   ]
 }
