@@ -32,7 +32,7 @@
 }
 
 .carousel-item img {
-  max-width: 50%;
+  max-width: 30%;
   height: auto;
   object-fit: contain;
 }
@@ -75,8 +75,7 @@
 
 @media (max-width: 576px){
   .carousel-item img {
-    max-width: 50%;
-    height: auto;
+    max-width: 30%;
   }
 
   .home-products .prod:nth-of-type(2) .product-image {
@@ -105,8 +104,7 @@
 
 @media (max-width: 768px){
   .carousel-item img {
-    max-width: 50%;
-    height: auto;
+    max-width: 30%;
   }
 
   .home-products .prod:nth-of-type(2) .product-image {
