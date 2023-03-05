@@ -72,13 +72,12 @@
 .product-title::after {
   position: absolute;
   content: '';
-  bottom: -2.5rem;
+  bottom: -3rem;
   left: 50%;
   width: 350px;
   height: 3px;
   transform: translate(-50%, -50%);
   background: $main-color;
-
 }
 
 .prod-name {

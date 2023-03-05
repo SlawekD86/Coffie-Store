@@ -9,7 +9,7 @@
 .main-title {
   font-family: $font-header;
   color: $main-color;
-  font-weight: 700;
+  font-weight: 620;
   letter-spacing: 5px;
   font-size: 5.5rem;
   position: relative;
@@ -43,6 +43,7 @@
 .navbar-nav {
   font-size: 1.2rem;
   font-weight: 600;
+  padding-top: 12rem;
 }
 
 .content {
@@ -76,8 +77,9 @@
 @media (max-width: 576px){
   .main-title {
     text-align: center;
-    font-size: 5rem;
-    padding-top: 5rem;
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-size: 300;
   }
 }
 
